@@ -53,7 +53,9 @@ header li a:hover {
 
 .articles article img {
     /* height: 180px; */
-    width: 100%;
+
+    width: 400px;
+    height: 250px;
     border-radius: 12px;
     box-shadow: 3px 3px 12px;
     
@@ -113,8 +115,71 @@ section h2 {
 
 #sports {
     background-color:azure;
+    border-bottom: solid #2f3640;
+    border-style: outset;
+    border-width: 5px;
 }
 
 #economy {
     background-color:aliceblue;
+    border-bottom: solid #2f3640;
+    border-style: inset;
+    border-width: 5px;
+}
+
+#entertainment {
+    background-color: black ;
+    border-bottom: solid #2f3640;
+    border-style: outset;
+    border-width: 5px;
+}
+
+#technology {
+    background-color:steelblue;
+    border-bottom: solid #2f3640;
+    border-style: inset;
+    border-width: 5px;
+}
+
+/*Textos de Cores Diferentes das duas últimas Seções*/
+
+#entertainment .container h2,
+#entertainment .container h3,
+#entertainment .container p,
+#entertainment .container a {
+    color: white
+}
+
+#technology .container h2,
+#technology .container h3,
+#technology .container p,
+#technology .container a {
+    color: white
+}
+
+
+/*Botões Diferentes das duas últimas Seções*/
+
+#entertainment .container a {
+    background-color: white;
+    color: #2f3640;
+}
+
+#entertainment .container a:hover {
+    background-color: #2f3640;
+    border-style: outset;
+    border-color: white;
+    color: white;
+}
+
+#technology .container a {
+    background-color: white;
+    color: #2f3640;
+}
+
+#technology .container a:hover {
+    background-color: #2f3640;
+    border-style: outset;
+    border-color: white;
+    color: white;
 }
